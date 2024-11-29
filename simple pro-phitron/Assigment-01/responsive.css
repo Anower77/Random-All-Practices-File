@@ -1,0 +1,102 @@
+/* General Reset */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.content-box h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content-box p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 15px;
+}
+
+.icon-box i {
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+/* Portfolio */
+.portfolio-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Education */
+.edu-qua p, .edu-qua span {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Contact Form */
+#contactForm input, #contactForm textarea {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo-menu-btn {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu li {
+        padding: 5px;
+    }
+
+    .slide {
+        flex-direction: column;
+    }
+
+    .portfolio-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .portfolio-content p {
+        font-size: 0.9rem;
+    }
+
+    .edu-qua p {
+        font-size: 1rem;
+    }
+}

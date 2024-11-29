@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header  */
+/* body{
+    background-color: red;
+} */
+
+
+.logo img{
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.menu li{
+    text-decoration: none;
+    
+}
+.btn button{
+    background-color: rgb(43, 56, 205);
+    color: white;
+    border: none;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px;
+    border-radius: 5px;
+
+}
+.btn button i{
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+
+/* slide  */
+
+.slide{
+    padding: 100px;
+}
+
+.icon-box i{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.icon-box .btn{
+    color: white;
+    background-color: orange;
+    margin-left:30px;
+}
+
+.image-box img{
+    width: 500px;
+    height: 500px;
+}
+
+.portfolio{
+    margin-left: 1000px;
+    margin-right: 1000px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.portfolio-content p{
+    padding-right: 100px;
+}
+
+
+.skil-tag{
+    display: flex;
+    gap: 20px;
+    
+}
+.skil-tag h6{
+    background-color: red;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+.skills h6{
+    background-color: greenyellow;
+    color: black;
+
+}
+
+.lst{
+    margin-left: 200px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.edu-qua{
+    float: 1;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 250px;
+}
+
+
+.edu-qua p{
+    font-weight: bold;
+}
+
+
+
+
+/* contact form  */
+.container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+
+/* footer */
+.footer{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+

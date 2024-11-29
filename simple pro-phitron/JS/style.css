@@ -1,0 +1,41 @@
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 2px, solid, black;
+}
+
+.box-contianer{
+    display: flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+input{
+    padding: 20px;
+    width: 20%;
+}
+
+button{
+    padding: 20px;
+}
+
+.comment-container{
+    border: 2px solid black;
+    height: 300px;
+    width: 600px;
+}
+
+.user{
+    padding: 20px;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+
+}
+
+.user-container{
+    display: flex;
+    justify-content: center;
+}

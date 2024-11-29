@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background: khaki;  */
+}
+
+
+.logo-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 50px;
+    width: 10px;
+
+}
+.menu{
+    margin: 50px;
+    display: flex;
+    gap: 20px;
+}
+.list{
+    text-decoration: none;
+}
+
+
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+}
+
+h1{
+    padding: 30px;
+}
+
+button{
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-style: bold;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.character{
+    padding: 50px;
+}
+
+
+
+/* main sercive  */
+
+.service-head{
+    text-align: center; 
+    font-size: 30px;
+    padding: 50px;
+}
+
+
+.box{
+    margin: 20px;
+    padding: 50px;
+    border: 2px solid #000;
+    text-align: center;
+    background: greenyellow;
+}
+
+.service1{
+    margin: 100px;
+    display: flex;
+    gap: 50px;
+}
+.service2{
+    margin: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+/* hire us */
+.hire-us{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+}
+
+.phone{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-col {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-col h4 {
+    margin-bottom: 15px;
+}
+
+
+
